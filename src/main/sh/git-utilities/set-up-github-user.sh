@@ -13,7 +13,6 @@ usage() {
     echo "Dependencies: Java, git and openssh are installed."
     echo "This has been tested with the image produced by UkHomeOffice/docker-openjdk8-git."
     echo "Usage: set-up-github-user.sh <github ssh key>"
-    echo e.g. ./set-up-github-user.sh $GITHUB_SSH_KEY
 }
 
 if [ $# -ne 1 ]; then
