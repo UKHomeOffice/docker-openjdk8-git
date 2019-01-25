@@ -11,7 +11,6 @@ usage() {
     echo "Dependencies: Java and git on the host, gradlew in the project."
     echo "This has been tested with the image produced by UkHomeOffice/docker-openjdk8-git."
     echo "Usage: update-project-version.sh"
-    echo e.g. ./update-project-version.sh
 }
 
 if [ $# -ne 0 ]; then
